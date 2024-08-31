@@ -58,7 +58,7 @@
 .header__address {
   justify-self: end;
   margin-right: 62px;
-  line-height: 1.52;
+  line-height: 1.35;
 }
 
 .address ul {
@@ -305,7 +305,7 @@
 }
 
 .footer__address {
-  line-height: 24.3px;
+  line-height: 1.35;
   text-underline-offset: 4px;
 }
 
