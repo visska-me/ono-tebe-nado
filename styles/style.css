@@ -36,12 +36,12 @@
 
 .header__link {
   text-underline-offset: 4px;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
-.header__link:hover {
+.link__hover:hover {
   color: rgb(92, 94, 90);
 }
-/*......*/
 
 .header__logo {
   width: 100%;
@@ -52,8 +52,6 @@
   max-width: 148px;
   max-height: 105px;
 }
-
-/*......*/
 
 .header__address {
   justify-self: end;
@@ -149,9 +147,9 @@
 }
 
 .bet-button:hover {
-  background-color: #fff; /* Меняем фон на белый */
-  color: #000; /* Меняем цвет текста на черный */
-  border-color: #000; /* Меняем цвет границы на черный */
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
 }
 
 .lots {
@@ -329,10 +327,6 @@
 
 .footer__link {
   transition: transform 0.3s, opacity 0.3s;
-}
-
-.footer__link:hover {
-  color: rgb(92, 94, 90);
 }
 
 .footer__link:hover .footer__social-icon {
