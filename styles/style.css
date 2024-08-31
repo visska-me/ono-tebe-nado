@@ -132,6 +132,7 @@
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
+  white-space: nowrap;
 }
 
 .bet-button {
